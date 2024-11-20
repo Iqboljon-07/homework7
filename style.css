@@ -1,0 +1,35 @@
+.container{
+
+
+
+background-color: yellow;
+
+
+display: grid;
+grid-template-rows:30px 40px 90px 40px 250px;
+
+text-align: center;
+height:450px;
+
+align-content: space-between;
+}
+
+body{
+
+
+    display:grid;
+  
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:20px
+}
+
+.container1{
+color: blue
+
+}
+
+.container2{
+color:red
+ 
+}
